@@ -14,7 +14,7 @@ function App(){
     return(
         <div className='ui container'>
         <Header />
-        <AddContact addContactHandler={addContactHandler} />
+        <AddContact addContactHandler={addContactHandler}/>
         <ContactList contacts ={contacts} />
         </div>
     );
